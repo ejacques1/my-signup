@@ -1,0 +1,12 @@
+{
+  "name": "college-awareness",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": "24.x" },
+  "scripts": {
+    "dev": "node --env-file-if-exists=.env.local scripts/dev.mjs",
+    "test": "node --test",
+    "build": "node scripts/check-build.mjs"
+  }
+}

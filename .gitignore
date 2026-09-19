@@ -1,0 +1,7 @@
+.vercel
+.env*
+!.env.example
+node_modules/
+.DS_Store
+# This repository is public. Keep the gated resource out of GitHub.
+College Scholarship Resources.md
